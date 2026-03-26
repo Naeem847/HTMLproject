@@ -1,0 +1,227 @@
+body{
+margin: 1px;
+/* overflow-x:hidden; */
+}
+.sidebar{
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #444;
+  color: white;
+  padding: 0;
+}
+
+.content{
+  margin-left: 25%;
+  height: 100vh;
+
+}
+.filter-container{
+display:flex;
+align-items:center;
+gap:10px;
+
+padding:20px;
+}
+.some-class {
+  background-color: rgb(141, 139, 139);
+  
+  padding: 0px;
+  border-radius: 2rcap;
+
+}
+.skill-bar {
+  width: 100%;
+  background-color: #ccc;   
+  height: 40px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.skill-fill {
+  height: 100%;
+  background-color: #666;
+  color: white;
+  text-align: center;
+  line-height: 40px;        
+  font-weight: bold;
+}
+.download-resume {
+  width: 10%;
+  height: 8%;
+  background-color: #666; 
+  padding: 0cap;
+  border-radius: 1cap;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 300px;
+  background: #f5f5f5;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.card-header {
+  background: #666;
+  color: white;
+  padding: 30px;
+  font-size: 28px;
+}
+
+.card-header.pro {
+  background: #5aa7a2;
+}
+
+.card-body p {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+.price {
+  padding: 30px;
+}
+
+.price h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #555;
+}
+
+.price span {
+  color: #999;
+}
+
+.active {
+  transform: scale(1.05);
+}
+.contact-section {
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+.contact-boxes {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  background: #666;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.box i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.box.active {
+  background: #0f8f83;
+}
+
+hr {
+  margin: 30px 0;
+  border: 1px solid #ccc;
+}
+form {
+  max-width: 100%;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #eee;
+  font-size: 16px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button i {
+  margin-right: 8px;
+}
+
+button:hover {
+  background: #333;
+}
+.footer{
+display:flex;
+justify-content:space-between;
+background:#666;
+color:white;
+padding:40px;
+}
+
+.footer-col{
+width:30%;
+}
+
+.post{
+display:flex;
+align-items:center;
+gap:15px;
+margin:15px 0;
+}
+
+.post img{
+width:60px;
+height:60px;
+}
+
+.tags{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.tags span{
+background:#999;
+padding:5px 10px;
+font-size:14px;
+}
+
+.tags .active{
+background:black;
+color:white;
+}
+
+
+.bottom{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
