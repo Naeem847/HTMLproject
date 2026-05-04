@@ -8,11 +8,20 @@ margin: 1px;
   position: fixed;
   left: 0;
   top: 0;
-  background: #444;
+  background: #323131;
   color: white;
   padding: 0;
+  color: white;
+}
+.sidebar a {
+  color: white;       /* makes only links white */
+  text-decoration: none; /* optional: removes underline */
 }
 
+/* Optional hover effect */
+/* .sidebar a:hover {
+  color: lightgray;
+} */
 .content{
   margin-left: 25%;
   height: 100vh;
@@ -73,7 +82,7 @@ padding:20px;
 .card-header {
   background: #666;
   color: white;
-  padding: 30px;
+  padding: 20px;
   font-size: 28px;
 }
 
