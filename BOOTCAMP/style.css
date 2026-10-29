@@ -6,8 +6,35 @@ h1{
 
 }
 #first{
-color: rgb(124, 124, 138);
+color: rgb(128, 128, 232);
 }
 #second{
     color: aquamarine;
+    line-height: 3;
 }
+.one{
+    color: brown;
+}
+#third{
+  color:blueviolet;
+  background-color: rgb(20, 17, 13);
+} 
+ol,#first{
+    color: blueviolet;
+
+} 
+ h1{
+ color: blue;
+ }
+ #first{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0cqi;
+    letter-spacing: 10px;
+ }
+ p{
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+    letter-spacing: 2px;
+ }
