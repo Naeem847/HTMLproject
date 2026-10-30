@@ -1,5 +1,12 @@
 h1{
     background-color: aqua;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px;
 }
 *{
     background-color: antiquewhite;
@@ -23,9 +30,9 @@ ol,#first{
     color: blueviolet;
 
 } 
- h1{
+ /* h1{
  color: blue;
- }
+ } */
  #first{
     text-align: center;
     text-transform: uppercase;
@@ -37,4 +44,8 @@ ol,#first{
     text-transform: uppercase;
     color: blueviolet;
     letter-spacing: 2px;
+ }
+ span{
+    background-color: pink;
+    display: block;
  }
