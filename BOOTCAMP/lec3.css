@@ -1,0 +1,77 @@
+h1{ 
+/* font-size: 10px;  */
+color: red; 
+background-color: #cdcd64; 
+
+background-color:hsla(120, 100%, 50%, 0.3); 
+} 
+ ol{
+    font-size: 10px;
+} 
+li{
+    font-size: 2rem;
+} 
+div{
+    height: 100px;
+    width: 100px;
+    /* color: red; */
+}  
+h1{ 
+font-weight: 300;
+font-style:normal; 
+font-family:'colonna' 2rem; 
+.h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+ 
+h1{
+  font-family: "Playwrite AR Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+} 
+button{
+    height: 45px;
+    width: 100px;
+    background-color: #e6e60c;
+    border-radius: 0;
+}
+button:hover{
+    background-color: rgb(226, 17, 17);
+    box-shadow: 0px 0px 10px 5px #7e465b;
+}
+h1:hover{
+    text-shadow: 0px 0px 10px #070767;
+
+}
+a{
+    color:#076717;
+    background-color: #e6e60c;
+    font-weight:bold;
+    text-decoration: none;
+}
+    
+a:link{
+    color: blue;
+   
+} 
+p:hover{
+text-shadow: 10px 10px 10px blue;
+} 
+h2:hover{
+    text-shadow: 10px 10px 10px blue;
+} 
+h1{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+body{
+    height:1200px;
+}
+button{
+    position: sticky;
+    top: 0px;
+
+}
