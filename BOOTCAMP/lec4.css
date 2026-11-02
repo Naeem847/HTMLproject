@@ -1,0 +1,36 @@
+.container{
+    background-color: #6a0909;
+    height: 500px;
+    display: flex;
+    flex-direction: row; 
+    /* flex-direction: column-reverse; */ 
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.subcontainer{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    /* background-color: #e6e6e6; */
+}
+#one{
+    background-color: red;
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+    /* flex-basis: 500px; */
+    align-self: flex-end;
+}
+#two{
+    background-color: blue;
+    /* flex-grow: 2; */
+}
+#three{
+    background-color: green;
+}
+#four{
+    background-color: yellow;
+}
