@@ -1,0 +1,31 @@
+.container{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}
+.item{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    /* margin: 10px; */
+    animation-name:animation1;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    /* animation-delay: 2s; */
+    position: absolute;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+@keyframes animation1 {
+    from{
+        background-color: rgb(149, 0, 255);
+        left: 0px;
+        top: 0px;
+    }
+    to{
+        background-color: blue;
+        left: 500px;
+        top: 0px;
+    }
+    
+}
