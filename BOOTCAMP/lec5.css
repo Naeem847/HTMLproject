@@ -12,8 +12,8 @@
 }
  @media screen and (min-width: 900px){
     .container{
-       height: 300px;
-    width: 300px;
+       height: 30px;
+    width: 30px;
         background-color: rgb(52, 142, 70);
     }
     
