@@ -1,0 +1,65 @@
+
+h1{
+    background-color: #262842;
+    color: white;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: #293961;
+    /* color: white; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */ 
+}
+nav a{
+    display: inline-block;
+    color: black;
+    background-color: #8897BD;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+a:hover{
+    background-color: #262842;
+    color: whitesmoke;
+}
+.navbar{
+    height: 100%;
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.hero-section { 
+    height: 400px;
+    width: 100%;
+    background-color: #710606;
+    background-image: url('"C:\Users\Admin\Downloads\Futuristic AI Network Waves.png'); */
+  }
+.introduction{
+    height: 500%;
+    width: 100%;
+    background-color: #8897BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.intro-cont {
+    width: 50%;
+    height: auto;
+    color: rgb(33, 103, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+  } 
