@@ -1,9 +1,13 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
     background-color: #262842;
     color: white;
     text-align: center;
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +15,7 @@ h1{
 nav{
     background-color: #293961;
     /* color: white; */
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: center;
     /* align-items: center; */ 
@@ -39,27 +43,24 @@ a:hover{
     justify-content: space-around;
     align-items: center;
   }
-.hero-section { 
+.herosection { 
     height: 400px;
     width: 100%;
     background-color: #710606;
-    background-image: url('"C:\Users\Admin\Downloads\Futuristic AI Network Waves.png'); */
-  }
-.introduction{
-    height: 500%;
-    width: 100%;
-    background-color: #8897BD;
-    display: flex;
+    background-image: url("wallpapers.jpeg");
     justify-content: center;
     align-items: center;
-} 
-.intro-cont {
-    width: 50%;
-    height: auto;
-    color: rgb(33, 103, 65);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 15px;
-  } 
+
+  }
+.herosection{
+    color: rgb(114, 38, 80);
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    background-color: bisque;
+}
+.introduction{
+    height: 500;
+    
+    background-color: #7b112d;
+}
