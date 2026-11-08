@@ -60,7 +60,50 @@ a:hover{
     background-color: bisque;
 }
 .introduction{
-    height: 500;
-    
+    height: 500px;
+    /* width: 100px; */
     background-color: #7b112d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-cont{
+width: 50%;
+height: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #E3E4FA;
+border-radius: 10px;
+}
+.intro-img{
+ height: 100%;
+ width:50%;
+ background-color: bisque;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.profile-img{
+    height: 90%;
+    width: 90%;
+    background-image: url("new-pic.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.intro-txt{
+height: 100%;
+width: 50%;
+background-color: red;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+.text_area{
+height: 90%;
+width: 90%;
+background-color: burlywood;
 }
