@@ -1,0 +1,3 @@
+{
+  "detail": "No trained model at E:\\Deepfake-Detection-AI\\models\\detector.pt. Run `python -m src.train` first."
+}

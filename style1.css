@@ -70,11 +70,11 @@ a:hover{
 .intro-cont{
 width: 50%;
 height: 70%;
-margin: auto;
+
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #E3E4FA;
+background-color: #7c9ab1;
 border-radius: 10px;
 }
 .intro-img{
@@ -86,6 +86,24 @@ border-radius: 10px;
  align-items: center;
 }
 
+/* .profile-img{
+    height: 90%;
+    width: 90%;
+    background-image: url("new-pic.jpeg");
+    background-size: cover;
+    background-position: center;
+} */
+.intro-text{
+height: 100%;
+
+width: 50%;
+   flex: 1;
+background-color: red;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
 .profile-img{
     height: 90%;
     width: 90%;
@@ -93,17 +111,8 @@ border-radius: 10px;
     background-size: cover;
     background-position: center;
 }
-.intro-txt{
-height: 100%;
-width: 50%;
-background-color: red;
-display: flex;
-justify-content: center;
-text-align: center;
-
-}
-.text_area{
+.text-area{
 height: 90%;
 width: 90%;
-background-color: burlywood;
+background-color: rgb(171, 163, 152);
 }
