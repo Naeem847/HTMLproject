@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javaecript htmldom</h1>
+        <h2>the getElementbyId()method</h2>
+        <h3>finding html elements by tag</h3>
+        <h3>element by tag</h3>
+        <h3>finding html element by tag</h3>
+        <p>find the html element by class</p>
+        <p class="intro">hello world!</p>
+        <p class="intro">example</p>
+        <p id="demo"></p>
+        <script>
+            const myPara=document.getElementById("demo");
+            const element=document.getElementById("p");
+            // change the content of the element
+            document.getElementById("demo").innerHTML='the text in first paragraph(index 0) is:'+element[0].innerHTML;
+            const x=document.getElementsByClassName("intro");
+            // Change the cntent of the element
+            document.getElementById("demo").innerHTML='the paragraph(index 0) with the element'
+
+            myPara.innerHTML="Hello World!";
+        </script>
+
+</body>
+</html>
