@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>java script html DOM</h1> 
+ <h2>the query selector()method</h2>
+ <p class="demo"></p> 
+ <script>
+    const myPara=Document.querySelector("demo");
+    // change the content of the eleement
+    myPara.innerHTML="Hello World!";
+
+ </script>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 id="id01">ld heading</h1> 
+  <script>
+         const element=document.getElementbyid("id01");
+         element.innerHTML="new heading";
+  </script> 
+  <h1 id="id1">my heading 1</h1>
+  <button type="button"
+  onclick="document.getElementById('id1').style.color='red'">
+  click me!</button>
+  <p>javascript change "pld heading"to "new heading"</p>
+</body>
+</html>
